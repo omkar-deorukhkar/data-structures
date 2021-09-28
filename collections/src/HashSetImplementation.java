@@ -11,6 +11,9 @@ public class HashSetImplementation {
         myHashSet.add(2);
         myHashSet.add(3);
         myHashSet.add(4);
+        myHashSet.add(1);
+
+        System.out.println(myHashSet);
 
         boolean isHashSetEmpty = myHashSet.isEmpty();
         boolean hashSetContains = myHashSet.contains(3);
